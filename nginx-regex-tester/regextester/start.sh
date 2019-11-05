@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#update to unix line break
 nginx
 
 i=`curl -s -o /dev/null -w "%{http_code}" 0.0.0.0`
